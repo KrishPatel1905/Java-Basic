@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 
+import LAB.student;
+
 public class Admin {
 
 

@@ -1,3 +1,4 @@
+package LAB;
 import java.util.Scanner;
 class s{
    private String name;
@@ -5,9 +6,9 @@ class s{
    private String department;
    s(String name,String id,String department)
    {
-       name=name;
-       id=id;
-       department=department;
+      this. name=name;
+       this.id=id;
+       this.department=department;
 
    }
    void display()
@@ -29,6 +30,7 @@ public class StudentManagement {
         String d=sc.next();
         s obj1= new s(n,i,d);
         obj1.display();
+        System.out.println("24CE084  .");
 
     }
 }

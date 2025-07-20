@@ -1,3 +1,4 @@
+package LAB;
 
 
 public class student {

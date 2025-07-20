@@ -1,7 +1,5 @@
-// Source code is decompiled from a .class file using FernFlower decompiler.
-
 import java.util.Scanner;
-//pakge myapp;
+
 public class Admin {
 
 
@@ -14,14 +12,12 @@ public class Admin {
         int id= scanf.nextInt();
         System.out.print("Enter the Name :");
         String name= scanf.next();
-        //   s.getvalue(id,name);
+       
 
-        // if(s instanceof student)
-        // {
+        
+       
         s.getvalue(id,name);
-        // s.setvalue();
-
-        // }
+       
     }
 }
-//constour overloading 2. two stirng over ride
+

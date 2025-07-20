@@ -1,3 +1,4 @@
+package COLLAGE_LAB;
 import java.util.Scanner;
 class Employee
 {
@@ -52,7 +53,7 @@ public class EmployeeManagementSystem {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Employee type");
         String s=sc.next();
-        System.out.println("Enter Employee Type:"+s);
+        System.out.println("The Employee Type:"+s);
 
 
     }
