@@ -18,6 +18,7 @@ class krish implements human{
  class jhon implements human{
 public  void display()
  {
+  System.out.println("hi");         
   System.out.println("HI My name is jhon ");
  }
     
