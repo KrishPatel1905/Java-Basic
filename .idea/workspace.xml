@@ -5,96 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53c15845-d01a-4a13-b542-6e029bdab09a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/OPPS WITH JAVA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/Basic/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Admin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/Management.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/University.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/out/production/Management/Management/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/out/production/Management/Management/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/out/production/Management/Management/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/out/production/Management/Management/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/out/production/Management/Management/Management.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/out/production/Management/Management/person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/out/production/Management/Management/student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/out/production/Management/Management/teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Management/thread_demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/StudentManagement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Student_portal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/Student_portal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/LAB/student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Basic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praticies/Exam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praticies/Interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praticies/Interface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praticies/Interfacemethod2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praticies/Operation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praticies/StringSplit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praticies/StringSplit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praticies/human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praticies/jack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praticies/jhon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praticies/krish.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praticies/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/.idea/src/LAB/Management/Management.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/.idea/src/LAB/Management/out/production/Management/Management/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/.idea/src/LAB/Management/out/production/Management/Management/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/.idea/src/LAB/Management/out/production/Management/Management/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/.idea/src/LAB/Management/out/production/Management/Management/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/.idea/src/LAB/Management/out/production/Management/Management/Management.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/Java Basic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/LAB/Management/Management.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/LAB/Management/out/production/Management/Management/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/LAB/Management/out/production/Management/Management/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/LAB/Management/out/production/Management/Management/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/LAB/Management/out/production/Management/Management/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/LAB/Management/out/production/Management/Management/Management.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Basic/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tempCoderRunnerFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "KrishPatel1905"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KrishPatel1905&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/KrishPatel1905/Java-Basic.git",
-    "accountId": "fbd08bbd-550e-46cd-8485-eed3e39e3c07"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KrishPatel1905/Java-Basic.git&quot;,
+    &quot;accountId&quot;: &quot;fbd08bbd-550e-46cd-8485-eed3e39e3c07&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="31Dcmi7tF25NArbivDG6Za1LydY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -102,13 +45,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HospitalManagement.executor": "Run",
     "Application.MusicTest.executor": "Run",
+    "Application.Staff.executor": "Run",
+    "Application.StaticBlock.executor": "Run",
+    "Application.StaticInterface.executor": "Run",
     "Application.test.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -124,6 +71,44 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\krish\OneDrive\Documents\OPPS WITH JAVA\src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.HospitalManagement">
+    <configuration name="HospitalManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HospitalManagement" />
+      <module name="OPPS WITH JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Staff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Staff" />
+      <module name="OPPS WITH JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticBlock" />
+      <module name="OPPS WITH JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticInterface" />
+      <module name="OPPS WITH JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HospitalManagement" />
+        <item itemvalue="Application.Staff" />
+        <item itemvalue="Application.StaticBlock" />
+        <item itemvalue="Application.StaticInterface" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -141,6 +126,11 @@
       <option name="presentableId" value="Default" />
       <updated>1755062246608</updated>
       <workItem from="1755062248124" duration="2009000" />
+      <workItem from="1755428222425" duration="2356000" />
+      <workItem from="1755446998139" duration="1924000" />
+      <workItem from="1755524789125" duration="667000" />
+      <workItem from="1755606062405" duration="3000" />
+      <workItem from="1755607127935" duration="2774000" />
     </task>
     <servers />
   </component>
