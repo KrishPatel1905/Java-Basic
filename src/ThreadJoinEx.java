@@ -1,4 +1,4 @@
-package ThreadDemo;
+
 public class ThreadJoinEx {
  
     public static void main(String[] args) {
@@ -7,24 +7,24 @@ public class ThreadJoinEx {
         Thread t3 = new Thread(new MyRunnable(), "t3");
          
         t1.start();
-         
+                    
         //start second thread after waiting for 5 seconds or if it's dead
-        try {
-            t1.join(10);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        t2.start();
-        //start third thread only when first thread is dead
-        try {
-            if(t1.isAlive()){
-            System.out.println("t1 is alive");
-                t1.join();
+            try {
+                t1.join(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
-            //t2.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+            t2.start();
+            //start third thread only when first thread is dead
+            try {
+                if(t1.isAlive()){
+                System.out.println("t1 is alive");
+                    t1.join();
+                }
+                t2.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
          
         t3.start();
          

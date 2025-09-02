@@ -1,4 +1,4 @@
-package ThreadDemo.Practical1;
+// package ThreadDemo.Practical1;
 
 public class ThreadPractical1 {
 
@@ -12,7 +12,7 @@ public class ThreadPractical1 {
         public void run() {
             try {
                 for (int i = 1; i <= 5; i++) {
-                    System.out.println(getName() + " prints: " + i);
+                    System.out.println(Thread.currentThread().getName() + " prints: " + i);
                     Thread.sleep(1000);  // 1 second delay
                 }
             } catch (InterruptedException e) {
@@ -32,14 +32,29 @@ public class ThreadPractical1 {
 
         @Override
         public void run() {
-            
+                try {
+               for(char i = 'A';i<'D';i++)
+            {
+                System.out.println(Thread.currentThread().getName() + " prints: " + i);
+                  Thread.sleep(1000); 
+            }
+
+            } catch (InterruptedException e) {
+                System.err.println(Thread.currentThread().getName() + " interrupted");
+                Thread.currentThread().interrupt();
+            }
         }
     }
 
     public static void main(String[] args) {
         // Create and start the NumberPrinter thread
         NumberPrinter numThread = new NumberPrinter("NumberThread");
+           
+       
+       
         numThread.start();
+         LetterPrinter l= new LetterPrinter("Krish");
+         
 
         // Create and start the LetterPrinter thread
       
@@ -52,7 +67,21 @@ public class ThreadPractical1 {
             System.err.println("Main thread interrupted while waiting");
             Thread.currentThread().interrupt();
         }
+     try{
 
+      
+     if(numThread.isAlive())
+     {
+        numThread.join();
+     }
+     new Thread(l).start();
+
+     } 
+     catch(InterruptedException e)
+     {
+             System.err.println("Main thread interrupted while waiting");
+            Thread.currentThread().interrupt();
+     }
         System.out.println("Both threads have finished.");
     }
 }
