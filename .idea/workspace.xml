@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="53c15845-d01a-4a13-b542-6e029bdab09a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OPPS WITH JAVA/HospitalManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OPPS WITH JAVA/HospitalManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OPPS WITH JAVA/Maths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OPPS WITH JAVA/StaticInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OPPS WITH JAVA/cal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankManagementSystem/Task1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankManagementSystem/Task1Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StaticInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StaticInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Basictry.executor": "Run",
     "Application.HospitalManagement.executor": "Run",
     "Application.MusicTest.executor": "Run",
     "Application.Staff.executor": "Run",
@@ -64,6 +71,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "application.passwordSafe",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,7 +80,14 @@
       <recent name="C:\Users\krish\OneDrive\Documents\OPPS WITH JAVA\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HospitalManagement">
+  <component name="RunManager" selected="Application.Basictry">
+    <configuration name="Basictry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basictry" />
+      <module name="OPPS WITH JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HospitalManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HospitalManagement" />
       <module name="OPPS WITH JAVA" />
@@ -103,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Basictry" />
         <item itemvalue="Application.HospitalManagement" />
         <item itemvalue="Application.Staff" />
         <item itemvalue="Application.StaticBlock" />
@@ -131,10 +147,27 @@
       <workItem from="1755524789125" duration="667000" />
       <workItem from="1755606062405" duration="3000" />
       <workItem from="1755607127935" duration="2774000" />
+      <workItem from="1756890752910" duration="2383000" />
+      <workItem from="1756895326178" duration="659000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Basictry.java</url>
+          <line>1</line>
+          <properties class="Basictry" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

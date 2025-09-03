@@ -56,7 +56,7 @@ public class Task1Main {
         t3.start();
 
         try {
-            t1.join();
+            t1.join ();
             t2.join();
             t3.join();
         } catch (Exception e) {}
