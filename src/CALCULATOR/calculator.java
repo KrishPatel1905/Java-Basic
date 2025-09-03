@@ -4,51 +4,52 @@ import java.util.Scanner;
 
 public class calculator {
     public static void main(String[] args) {
-       
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter the value :");
-String op= sc.next();
-System.out.println("Enter the value of a :");
-int a = sc.nextInt();
-System.out.println("Enter the value of b :");
-int c= sc.nextInt();
-while (op!="1") {
-    
+        Scanner sc = new Scanner(System.in);
 
-switch (op) {
-    case "+":
-        int c= a + b;
-        System.out.println("The Value Of :"+c);
-        break;
-        case "-":
-           int c= a - b;
-        System.out.println("The Value Of :"+c);
-        break;
-        case "*":
-           int c= a * b;
-        System.out.println("The Value Of :"+c);
-        break;
-        case "d":
-        try{
-         int c= a / b;
-        System.out.println("The Value Of :"+c);
-        }catch(ArithmeticException e){
-            System.out.println("The Error :"e.getMessage());
-            
-        }
-        finally{
-            System.out.println("Done");
-        }
-          
-        break;
-        case "1":
-           break;
-        
+        while (true) {
+            System.out.println("Enter operator (+, -, *, /) or 1 to exit:");
+            String op = sc.next();
 
-    default:
-        break;
-}
+            if (op.equals("1")) {
+                break;
+            }
+
+            System.out.println("Enter the value of a:");
+            int a = sc.nextInt();
+            System.out.println("Enter the value of b:");
+            int b = sc.nextInt();
+
+            switch (op) {
+                case "+":
+                    int result1 = a + b;
+                    System.out.println("The Value Of : " + result1);
+                    break;
+
+                case "-":
+                    int result2 = a - b;
+                    System.out.println("The Value Of : " + result2);
+                    break;
+
+                case "*":
+                    int result3 = a * b;
+                    System.out.println("The Value Of : " + result3);
+                    break;
+
+                case "/":
+                    try {
+                        int result4 = a / b;
+                        System.out.println("The Value Of : " + result4);
+                    } catch (ArithmeticException e) {
+                        System.out.println("The Error : " + e.getMessage());
+                    } finally {
+                        System.out.println("Done");
+                    }
+                    break;
+
+                default:
+                    System.out.println("Invalid operator!");
+            }
+        }
+        sc.close();
     }
-}
-
 }
