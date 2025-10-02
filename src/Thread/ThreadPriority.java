@@ -1,13 +1,19 @@
+package Thread;
 // package ThreadDemo;  
 
 public class ThreadPriority extends Thread {
  public void run(){
      for(int i=0;i<5;i++){
+
      System.out.println("running thread name is:"+Thread.currentThread().getName());  
-	 System.out.println("running thread priority is:"+Thread.currentThread().getPriority()); 
+	 
+     System.out.println("running thread priority is:"+Thread.currentThread().getPriority()); 
+   
      System.out.println("running thread ID is:"+Thread.currentThread().getId()); 
       try{
+    
         Thread.sleep(100);
+    
       }catch(Exception e){}
     
      }
