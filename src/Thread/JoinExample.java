@@ -25,10 +25,10 @@ public class JoinExample {
         MyThread t3 = new MyThread("Thread-3");
 
         t1.start();
-        t1.join();   // wait for t1
+        t1.join();   
 
         t2.start(); 
-        t2.join();   // wait for t2
+        t2.join();   
 
         t3.start();
     }
