@@ -13,6 +13,7 @@ class Child extends parent {
         super.display();
         System.out.println("Hi I am child class ");
     }
+
     
     
 }
