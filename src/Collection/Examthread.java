@@ -28,10 +28,10 @@ class TimerThread extends Thread {
 
 public class Examthread {
     public static void main(String[] args) {
-        AutoSaveThread autoSave = new AutoSaveThread();  // NEW state
-        TimerThread timer = new TimerThread();           // NEW state
+        AutoSaveThread autoSave = new AutoSaveThread();  
+        TimerThread timer = new TimerThread();           
 
-        autoSave.start();  // Runnable → Running
+        autoSave.start();  
         timer.start();    
     }
 }
