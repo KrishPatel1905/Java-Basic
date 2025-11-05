@@ -17,7 +17,7 @@ public class ListExample {
         numbers.add(30);
         numbers.add(10); 
 
-        System.out.println("LinkedList:: " + numbers);
+        System.out.println("LinkedList: " + numbers);
 
         
         System.out.println("First name: " + names.get(0));
