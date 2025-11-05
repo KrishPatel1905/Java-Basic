@@ -20,7 +20,7 @@ public class ListExample {
         System.out.println("LinkedList: " + numbers);
 
         
-        System.out.println("First name: " + names.get(0));
+        System.out.println("First name:: " + names.get(0));
 
         
         names.remove("Rahul");
