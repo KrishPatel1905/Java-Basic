@@ -23,7 +23,7 @@ public class ListExample {
         System.out.println("First name:" + names.get(0));
 
         
-        names.remove("Rahul");
+        names.remove("Rahul::");
         System.out.println("After removing Rahul: " + names);
     }
 }
