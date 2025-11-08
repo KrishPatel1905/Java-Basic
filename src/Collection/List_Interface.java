@@ -24,6 +24,6 @@ public class ListExample {
 
         
         names.remove("Rahul::");
-        System.out.println("After removing Rahul:: " + names);
+        System.out.println("After removing Rahul: " + names);
     }
 }
